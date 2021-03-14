@@ -1,0 +1,66 @@
+.gallery-component-container {
+    text-align: center;
+    position: relative;
+    padding: 15px;
+    padding-top: 50px;
+}
+
+.gallery-component-container .gallery-component-images-container {
+    width: 100%;
+}
+
+.gallery-component-container .gallery-component-images-container .hero-image {
+    height: 500px;
+    margin-bottom: 15px;
+}
+
+.gallery-component-container
+    .gallery-component-images-container
+    .gallery-component-grid {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 15px;
+}
+
+.gallery-component-container
+    .gallery-component-images-container
+    .gallery-component-grid
+    .image-item {
+    height: 400px;
+}
+
+.gallery-component-container
+    .gallery-component-images-container
+    .gallery-component-grid
+    .image-item
+    img {
+    cursor: pointer;
+}
+
+.gallery-component-container .gallery-component-images-container button {
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gallery-component-container button a.back-btn {
+    color: white !important;
+    text-align: center;
+}
+
+@media only screen and (max-width: 1024px) {
+    .gallery-component-container
+        .gallery-component-images-container
+        .gallery-component-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media only screen and (max-width: 540px) {
+    .gallery-component-container
+        .gallery-component-images-container
+        .gallery-component-grid {
+        grid-template-columns: 1fr;
+    }
+}

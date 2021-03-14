@@ -1,0 +1,18 @@
+.main-container .stories-grid {
+    display: grid;
+    grid-template-rows: 400px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 50px;
+}
+
+.main-container .stories-grid .stories-item {
+    width: 100%;
+    overflow: hidden;
+}
+
+.main-container .stories-grid .stories-item img {
+    height: 70%;
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}

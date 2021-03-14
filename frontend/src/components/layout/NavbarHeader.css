@@ -1,0 +1,33 @@
+.navbar-header {
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 12px;
+    background-color: #f8f9fa;
+    padding: 40px 0 25px 0;
+}
+
+.navbar-header .link {
+    text-decoration: none;
+    /* color: #fff; */
+    border: 1px black solid;
+    color: black;
+    line-height: 60px;
+    padding: 10px 0 5px 10px;
+    font-size: 45px;
+    font-weight: 500;
+}
+
+.navbar-header .link span {
+    font-weight: 300;
+    font-size: 20px;
+    padding: 0 50px 0 80px;
+}
+
+.navbar-header h1 {
+    font-weight: 400;
+}
+
+.navbar-header p {
+    font-size: 18px;
+    font-weight: 300;
+}

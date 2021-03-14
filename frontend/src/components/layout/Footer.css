@@ -1,0 +1,32 @@
+.footer {
+    background-color: rgba(255, 255, 255, 0.705);
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.footer .social-icons {
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer .social-icons a:not(:last-child) {
+    margin-right: 25px;
+}
+
+.footer .social-icons a img {
+    height: 25px;
+    width: 25px;
+}
+
+.footer p {
+    padding-top: 10px;
+    text-align: center;
+    font-weight: 300;
+    font-size: 14px;
+    color: #bbb;
+}

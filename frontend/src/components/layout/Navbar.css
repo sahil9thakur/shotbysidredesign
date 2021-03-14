@@ -1,0 +1,25 @@
+.navbar-custom {
+    padding-bottom: 25px;
+}
+
+.navbar-custom .navlink-item:not(:last-child) {
+    margin-right: 50px;
+}
+
+.navbar-custom .navlink-item .nav-link {
+    color: black !important;
+    font-weight: 300;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+/* BREAKPOINTS */
+@media only screen and (max-width: 1024px) {
+    .navbar-custom .navbar-nav {
+        text-align: center;
+    }
+
+    .navbar-custom .navbar-nav .navlink-item {
+        margin-right: 0;
+    }
+}
