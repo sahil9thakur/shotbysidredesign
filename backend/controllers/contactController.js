@@ -19,8 +19,8 @@ const sendEmailInquiry = aysncHandler(async (req, res) => {
     });
     // console.log(user);
     // console.log(pass);
-    // console.log(process.env.SBS_EMAIL_ADDRESS);
-    // console.log(process.env.SBS_EMAIL_PASSWORD);
+    console.log(process.env.SBS_EMAIL_ADDRESS);
+    console.log(process.env.SBS_EMAIL_PASSWORD);
     const mailOpts = {
         from: email,
         to: process.env.SBS_EMAIL_ADDRESS,
