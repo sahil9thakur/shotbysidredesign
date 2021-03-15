@@ -2,6 +2,7 @@
     padding-top: 50px;
     max-width: 500px;
     margin: 0 auto;
+
 }
 
 .main-container .contact-me p {
@@ -13,12 +14,16 @@
     letter-spacing: 2px;
 }
 
-.main-container .contact-me form {
+.main-container .contact-me .form-container {
+    position: relative;
+}
+
+.main-container .contact-me .form-container form {
     padding: 50px 50px 0 50px;
     text-align: center;
 }
 
-.main-container .contact-me form .form-item {
+.main-container .contact-me .form-container form .form-item {
     display: flex;
     flex-direction: column;
     margin-bottom: 25px;
