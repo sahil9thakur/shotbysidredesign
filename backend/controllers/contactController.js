@@ -7,10 +7,12 @@ import nodemailer from "nodemailer";
 
 const sendEmailInquiry = aysncHandler(async (req, res) => {
     // console.log("backend email called");
-    const { name, email, inquiryType, message } = req.body;
+    const { name, email, message } = req.body;
     const transporter = nodemailer.createTransport({
-        service: "Gmail",
+        // service: "Gmail",
+        host: 'smtp.gmail.com',
         auth: {
+            type: "login",
             user: process.env.SBS_EMAIL_ADDRESS,
             pass: process.env.SBSEMAIL_PASSWORD,
             // user: "shotbysidweb@gmail.com",
