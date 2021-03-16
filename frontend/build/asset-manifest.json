@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.5f865cc8.chunk.css",
-    "main.js": "/static/js/main.5447a503.chunk.js",
-    "main.js.map": "/static/js/main.5447a503.chunk.js.map",
+    "main.js": "/static/js/main.d9d87925.chunk.js",
+    "main.js.map": "/static/js/main.d9d87925.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.5f818d89.js",
     "runtime-main.js.map": "/static/js/runtime-main.5f818d89.js.map",
-    "static/js/2.a3856904.chunk.js": "/static/js/2.a3856904.chunk.js",
-    "static/js/2.a3856904.chunk.js.map": "/static/js/2.a3856904.chunk.js.map",
+    "static/js/2.db2ec391.chunk.js": "/static/js/2.db2ec391.chunk.js",
+    "static/js/2.db2ec391.chunk.js.map": "/static/js/2.db2ec391.chunk.js.map",
     "index.html": "/index.html",
     "static/css/main.5f865cc8.chunk.css.map": "/static/css/main.5f865cc8.chunk.css.map",
-    "static/js/2.a3856904.chunk.js.LICENSE.txt": "/static/js/2.a3856904.chunk.js.LICENSE.txt",
+    "static/js/2.db2ec391.chunk.js.LICENSE.txt": "/static/js/2.db2ec391.chunk.js.LICENSE.txt",
     "static/media/ablerta1.ec5ab185.jpeg": "/static/media/ablerta1.ec5ab185.jpeg",
     "static/media/ablerta10.b8c58fc7.jpeg": "/static/media/ablerta10.b8c58fc7.jpeg",
     "static/media/ablerta11.d3d372fb.jpeg": "/static/media/ablerta11.d3d372fb.jpeg",
@@ -43,8 +43,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.5f818d89.js",
-    "static/js/2.a3856904.chunk.js",
+    "static/js/2.db2ec391.chunk.js",
     "static/css/main.5f865cc8.chunk.css",
-    "static/js/main.5447a503.chunk.js"
+    "static/js/main.d9d87925.chunk.js"
   ]
 }
