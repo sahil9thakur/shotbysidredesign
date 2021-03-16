@@ -12,10 +12,8 @@ const sendEmailInquiry = aysncHandler(async (req, res) => {
         service: "gmail",
         auth: {
             type: "login",
-            // user: process.env.SBS_EMAIL_ADDRESS,
-            // pass: process.env.SBSEMAIL_PASSWORD,
-            user: "shotbysidweb@gmail.com",
-            pass: "Ikeepforgettingit$id",
+            user: process.env.SBS_EMAIL_ADDRESS,
+            pass: process.env.SBSEMAIL_PASSWORD,
         },
     });
     // console.log(user);
