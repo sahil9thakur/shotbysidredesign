@@ -13,7 +13,7 @@ const sendEmailInquiry = aysncHandler(async (req, res) => {
         auth: {
             type: "login",
             user: process.env.SBS_EMAIL_ADDRESS,
-            pass: process.env.SBSEMAIL_PASSWORD,
+            pass: process.env.SBS_EMAIL_PASSWORD,
         },
     });
     // console.log(user);
