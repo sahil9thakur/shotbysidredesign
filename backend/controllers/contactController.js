@@ -9,14 +9,13 @@ const sendEmailInquiry = aysncHandler(async (req, res) => {
     // console.log("backend email called");
     const { name, email, message } = req.body;
     const transporter = nodemailer.createTransport({
-        // service: "Gmail",
-        host: 'smtp.gmail.com',
+        service: "gmail",
         auth: {
             type: "login",
-            user: process.env.SBS_EMAIL_ADDRESS,
-            pass: process.env.SBSEMAIL_PASSWORD,
-            // user: "shotbysidweb@gmail.com",
-            // pass: "Ikeepforgettingit$id",
+            // user: process.env.SBS_EMAIL_ADDRESS,
+            // pass: process.env.SBSEMAIL_PASSWORD,
+            user: "shotbysidweb@gmail.com",
+            pass: "Ikeepforgettingit$id",
         },
     });
     // console.log(user);
