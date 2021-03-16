@@ -5,7 +5,7 @@ import { Provider } from "react-redux";
 import store from "./store";
 import axios from "axios";
 
-axios.defaults.baseURL = "https://api.7starcanada.com";
+axios.defaults.baseURL = "https://api.shotbysid.com";
 
 ReactDOM.render(
     <Provider store={store}>
